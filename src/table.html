@@ -1,0 +1,17 @@
+<html>
+  <head>
+    <title>Hi,  {{ email }}.</title>
+  </head>
+  <table>
+    <tr>
+      <th>Date</th>
+      <th>Event Name</th>
+    </tr>
+    {% for element in elements: %}
+    <tr>
+      <td>{{ element.date }}</td>
+      <td>{{ element.eventName }}</td>
+    </tr>
+    {% endfor %}
+  </table>
+</html>

@@ -1,0 +1,4 @@
+SQLALCHEMY_DATABASE_URI='postgresql://localhost/'
+DEBUG=False
+TEMPLATES_AUTO_RELOAD=True
+FLASK_APP=server
